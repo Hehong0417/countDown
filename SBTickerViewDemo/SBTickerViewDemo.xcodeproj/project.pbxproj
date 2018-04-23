@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6906E8219A1894600C56FC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6906E8119A1894600C56FC8 /* Foundation.framework */; };
+		A6906E8419A1894600C56FC8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6906E8319A1894600C56FC8 /* CoreGraphics.framework */; };
+		A6906E8619A1894600C56FC8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6906E8519A1894600C56FC8 /* UIKit.framework */; };
+		A6906E8C19A1894600C56FC8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6906E8A19A1894600C56FC8 /* InfoPlist.strings */; };
+		A6906E8E19A1894600C56FC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6906E8D19A1894600C56FC8 /* main.m */; };
+		A6906E9219A1894600C56FC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6906E9119A1894600C56FC8 /* AppDelegate.m */; };
+		A6906E9419A1894600C56FC8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6906E9319A1894600C56FC8 /* Images.xcassets */; };
+		A6906E9B19A1894600C56FC8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6906E9A19A1894600C56FC8 /* XCTest.framework */; };
+		A6906E9C19A1894600C56FC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6906E8119A1894600C56FC8 /* Foundation.framework */; };
+		A6906E9D19A1894600C56FC8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6906E8519A1894600C56FC8 /* UIKit.framework */; };
+		A6906EA519A1894600C56FC8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6906EA319A1894600C56FC8 /* InfoPlist.strings */; };
+		A6906EA719A1894600C56FC8 /* SBTickerViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6906EA619A1894600C56FC8 /* SBTickerViewDemoTests.m */; };
+		A6906EB319A18A8100C56FC8 /* SBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6906EB119A18A8100C56FC8 /* SBViewController.m */; };
+		A6906EBE19A18B2000C56FC8 /* SBDoubleSidedLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A6906EB719A18B2000C56FC8 /* SBDoubleSidedLayer.m */; };
+		A6906EBF19A18B2000C56FC8 /* SBGradientOverlayLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A6906EB919A18B2000C56FC8 /* SBGradientOverlayLayer.m */; };
+		A6906EC019A18B2000C56FC8 /* SBTickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6906EBB19A18B2000C56FC8 /* SBTickerView.m */; };
+		A6906EC119A18B2000C56FC8 /* UIView+SBExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = A6906EBD19A18B2000C56FC8 /* UIView+SBExtras.m */; };
+		A6906EC419A18D8700C56FC8 /* SBTickView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6906EC319A18D8700C56FC8 /* SBTickView.m */; };
+		A6906ED219A1CA4600C56FC8 /* start_exam_fanpai@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6906ED119A1CA4600C56FC8 /* start_exam_fanpai@2x.png */; };
+		CE1EB2AA20871E1B00957678 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1EB2A820871E1B00957678 /* ViewController.m */; };
+		CE1EB2AB20871E1B00957678 /* SBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE1EB2A920871E1B00957678 /* SBViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6906E9E19A1894600C56FC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6906E7619A1894600C56FC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6906E7D19A1894600C56FC8;
+			remoteInfo = SBTickerViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6906E7E19A1894600C56FC8 /* SBTickerViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SBTickerViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6906E8119A1894600C56FC8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6906E8319A1894600C56FC8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6906E8519A1894600C56FC8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6906E8919A1894600C56FC8 /* SBTickerViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SBTickerViewDemo-Info.plist"; sourceTree = "<group>"; };
+		A6906E8B19A1894600C56FC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6906E8D19A1894600C56FC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6906E8F19A1894600C56FC8 /* SBTickerViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SBTickerViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		A6906E9019A1894600C56FC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A6906E9119A1894600C56FC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A6906E9319A1894600C56FC8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A6906E9919A1894600C56FC8 /* SBTickerViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SBTickerViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6906E9A19A1894600C56FC8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A6906EA219A1894600C56FC8 /* SBTickerViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SBTickerViewDemoTests-Info.plist"; sourceTree = "<group>"; };
+		A6906EA419A1894600C56FC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6906EA619A1894600C56FC8 /* SBTickerViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBTickerViewDemoTests.m; sourceTree = "<group>"; };
+		A6906EB019A18A8100C56FC8 /* SBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBViewController.h; sourceTree = "<group>"; };
+		A6906EB119A18A8100C56FC8 /* SBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBViewController.m; sourceTree = "<group>"; };
+		A6906EB619A18B2000C56FC8 /* SBDoubleSidedLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBDoubleSidedLayer.h; sourceTree = "<group>"; };
+		A6906EB719A18B2000C56FC8 /* SBDoubleSidedLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBDoubleSidedLayer.m; sourceTree = "<group>"; };
+		A6906EB819A18B2000C56FC8 /* SBGradientOverlayLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBGradientOverlayLayer.h; sourceTree = "<group>"; };
+		A6906EB919A18B2000C56FC8 /* SBGradientOverlayLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBGradientOverlayLayer.m; sourceTree = "<group>"; };
+		A6906EBA19A18B2000C56FC8 /* SBTickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBTickerView.h; sourceTree = "<group>"; };
+		A6906EBB19A18B2000C56FC8 /* SBTickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBTickerView.m; sourceTree = "<group>"; };
+		A6906EBC19A18B2000C56FC8 /* UIView+SBExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SBExtras.h"; sourceTree = "<group>"; };
+		A6906EBD19A18B2000C56FC8 /* UIView+SBExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SBExtras.m"; sourceTree = "<group>"; };
+		A6906EC219A18D8700C56FC8 /* SBTickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBTickView.h; sourceTree = "<group>"; };
+		A6906EC319A18D8700C56FC8 /* SBTickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBTickView.m; sourceTree = "<group>"; };
+		A6906ED119A1CA4600C56FC8 /* start_exam_fanpai@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "start_exam_fanpai@2x.png"; sourceTree = "<group>"; };
+		CE1EB2A720871E1B00957678 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE1EB2A820871E1B00957678 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE1EB2A920871E1B00957678 /* SBViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SBViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6906E7B19A1894600C56FC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6906E8419A1894600C56FC8 /* CoreGraphics.framework in Frameworks */,
+				A6906E8619A1894600C56FC8 /* UIKit.framework in Frameworks */,
+				A6906E8219A1894600C56FC8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6906E9619A1894600C56FC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6906E9B19A1894600C56FC8 /* XCTest.framework in Frameworks */,
+				A6906E9D19A1894600C56FC8 /* UIKit.framework in Frameworks */,
+				A6906E9C19A1894600C56FC8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6906E7519A1894600C56FC8 = {
+			isa = PBXGroup;
+			children = (
+				A6906E8719A1894600C56FC8 /* SBTickerViewDemo */,
+				A6906EA019A1894600C56FC8 /* SBTickerViewDemoTests */,
+				A6906E8019A1894600C56FC8 /* Frameworks */,
+				A6906E7F19A1894600C56FC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6906E7F19A1894600C56FC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6906E7E19A1894600C56FC8 /* SBTickerViewDemo.app */,
+				A6906E9919A1894600C56FC8 /* SBTickerViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6906E8019A1894600C56FC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6906E8119A1894600C56FC8 /* Foundation.framework */,
+				A6906E8319A1894600C56FC8 /* CoreGraphics.framework */,
+				A6906E8519A1894600C56FC8 /* UIKit.framework */,
+				A6906E9A19A1894600C56FC8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6906E8719A1894600C56FC8 /* SBTickerViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A6906EB519A18B2000C56FC8 /* SBTickerView */,
+				A6906E9019A1894600C56FC8 /* AppDelegate.h */,
+				A6906E9119A1894600C56FC8 /* AppDelegate.m */,
+				CE1EB2A720871E1B00957678 /* ViewController.h */,
+				CE1EB2A820871E1B00957678 /* ViewController.m */,
+				CE1EB2A920871E1B00957678 /* SBViewController.xib */,
+				A6906EB019A18A8100C56FC8 /* SBViewController.h */,
+				A6906EB119A18A8100C56FC8 /* SBViewController.m */,
+				A6906ED119A1CA4600C56FC8 /* start_exam_fanpai@2x.png */,
+				A6906E9319A1894600C56FC8 /* Images.xcassets */,
+				A6906E8819A1894600C56FC8 /* Supporting Files */,
+			);
+			path = SBTickerViewDemo;
+			sourceTree = "<group>";
+		};
+		A6906E8819A1894600C56FC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6906E8919A1894600C56FC8 /* SBTickerViewDemo-Info.plist */,
+				A6906E8A19A1894600C56FC8 /* InfoPlist.strings */,
+				A6906E8D19A1894600C56FC8 /* main.m */,
+				A6906E8F19A1894600C56FC8 /* SBTickerViewDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6906EA019A1894600C56FC8 /* SBTickerViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6906EA619A1894600C56FC8 /* SBTickerViewDemoTests.m */,
+				A6906EA119A1894600C56FC8 /* Supporting Files */,
+			);
+			path = SBTickerViewDemoTests;
+			sourceTree = "<group>";
+		};
+		A6906EA119A1894600C56FC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6906EA219A1894600C56FC8 /* SBTickerViewDemoTests-Info.plist */,
+				A6906EA319A1894600C56FC8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6906EB519A18B2000C56FC8 /* SBTickerView */ = {
+			isa = PBXGroup;
+			children = (
+				A6906EB619A18B2000C56FC8 /* SBDoubleSidedLayer.h */,
+				A6906EB719A18B2000C56FC8 /* SBDoubleSidedLayer.m */,
+				A6906EB819A18B2000C56FC8 /* SBGradientOverlayLayer.h */,
+				A6906EB919A18B2000C56FC8 /* SBGradientOverlayLayer.m */,
+				A6906EBA19A18B2000C56FC8 /* SBTickerView.h */,
+				A6906EBB19A18B2000C56FC8 /* SBTickerView.m */,
+				A6906EC219A18D8700C56FC8 /* SBTickView.h */,
+				A6906EC319A18D8700C56FC8 /* SBTickView.m */,
+				A6906EBC19A18B2000C56FC8 /* UIView+SBExtras.h */,
+				A6906EBD19A18B2000C56FC8 /* UIView+SBExtras.m */,
+			);
+			path = SBTickerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6906E7D19A1894600C56FC8 /* SBTickerViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6906EAA19A1894600C56FC8 /* Build configuration list for PBXNativeTarget "SBTickerViewDemo" */;
+			buildPhases = (
+				A6906E7A19A1894600C56FC8 /* Sources */,
+				A6906E7B19A1894600C56FC8 /* Frameworks */,
+				A6906E7C19A1894600C56FC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SBTickerViewDemo;
+			productName = SBTickerViewDemo;
+			productReference = A6906E7E19A1894600C56FC8 /* SBTickerViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6906E9819A1894600C56FC8 /* SBTickerViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6906EAD19A1894600C56FC8 /* Build configuration list for PBXNativeTarget "SBTickerViewDemoTests" */;
+			buildPhases = (
+				A6906E9519A1894600C56FC8 /* Sources */,
+				A6906E9619A1894600C56FC8 /* Frameworks */,
+				A6906E9719A1894600C56FC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6906E9F19A1894600C56FC8 /* PBXTargetDependency */,
+			);
+			name = SBTickerViewDemoTests;
+			productName = SBTickerViewDemoTests;
+			productReference = A6906E9919A1894600C56FC8 /* SBTickerViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6906E7619A1894600C56FC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = CaiGaoBaDou;
+				TargetAttributes = {
+					A6906E7D19A1894600C56FC8 = {
+						DevelopmentTeam = F972623DL2;
+					};
+					A6906E9819A1894600C56FC8 = {
+						TestTargetID = A6906E7D19A1894600C56FC8;
+					};
+				};
+			};
+			buildConfigurationList = A6906E7919A1894600C56FC8 /* Build configuration list for PBXProject "SBTickerViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6906E7519A1894600C56FC8;
+			productRefGroup = A6906E7F19A1894600C56FC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6906E7D19A1894600C56FC8 /* SBTickerViewDemo */,
+				A6906E9819A1894600C56FC8 /* SBTickerViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6906E7C19A1894600C56FC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1EB2AB20871E1B00957678 /* SBViewController.xib in Resources */,
+				A6906E8C19A1894600C56FC8 /* InfoPlist.strings in Resources */,
+				A6906E9419A1894600C56FC8 /* Images.xcassets in Resources */,
+				A6906ED219A1CA4600C56FC8 /* start_exam_fanpai@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6906E9719A1894600C56FC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6906EA519A1894600C56FC8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6906E7A19A1894600C56FC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1EB2AA20871E1B00957678 /* ViewController.m in Sources */,
+				A6906E9219A1894600C56FC8 /* AppDelegate.m in Sources */,
+				A6906EBF19A18B2000C56FC8 /* SBGradientOverlayLayer.m in Sources */,
+				A6906EC419A18D8700C56FC8 /* SBTickView.m in Sources */,
+				A6906EBE19A18B2000C56FC8 /* SBDoubleSidedLayer.m in Sources */,
+				A6906EC119A18B2000C56FC8 /* UIView+SBExtras.m in Sources */,
+				A6906EB319A18A8100C56FC8 /* SBViewController.m in Sources */,
+				A6906E8E19A1894600C56FC8 /* main.m in Sources */,
+				A6906EC019A18B2000C56FC8 /* SBTickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6906E9519A1894600C56FC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6906EA719A1894600C56FC8 /* SBTickerViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6906E9F19A1894600C56FC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6906E7D19A1894600C56FC8 /* SBTickerViewDemo */;
+			targetProxy = A6906E9E19A1894600C56FC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6906E8A19A1894600C56FC8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6906E8B19A1894600C56FC8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6906EA319A1894600C56FC8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6906EA419A1894600C56FC8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6906EA819A1894600C56FC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A6906EA919A1894600C56FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6906EAB19A1894600C56FC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = F972623DL2;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SBTickerViewDemo/SBTickerViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "SBTickerViewDemo/SBTickerViewDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6906EAC19A1894600C56FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = F972623DL2;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SBTickerViewDemo/SBTickerViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "SBTickerViewDemo/SBTickerViewDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A6906EAE19A1894600C56FC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SBTickerViewDemo.app/SBTickerViewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SBTickerViewDemo/SBTickerViewDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SBTickerViewDemoTests/SBTickerViewDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A6906EAF19A1894600C56FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SBTickerViewDemo.app/SBTickerViewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SBTickerViewDemo/SBTickerViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "SBTickerViewDemoTests/SBTickerViewDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6906E7919A1894600C56FC8 /* Build configuration list for PBXProject "SBTickerViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6906EA819A1894600C56FC8 /* Debug */,
+				A6906EA919A1894600C56FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6906EAA19A1894600C56FC8 /* Build configuration list for PBXNativeTarget "SBTickerViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6906EAB19A1894600C56FC8 /* Debug */,
+				A6906EAC19A1894600C56FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6906EAD19A1894600C56FC8 /* Build configuration list for PBXNativeTarget "SBTickerViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6906EAE19A1894600C56FC8 /* Debug */,
+				A6906EAF19A1894600C56FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6906E7619A1894600C56FC8 /* Project object */;
+}

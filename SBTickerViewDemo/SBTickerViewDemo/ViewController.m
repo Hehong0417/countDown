@@ -18,8 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-    NSLog(@"分支2。");
-    NSLog(@"分支2。");
+    NSLog(@"分支3。");
 
 }
 
